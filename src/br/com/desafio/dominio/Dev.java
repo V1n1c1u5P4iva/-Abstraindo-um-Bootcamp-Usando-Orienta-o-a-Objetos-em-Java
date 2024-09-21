@@ -3,7 +3,6 @@ package br.com.desafio.dominio;
 import java.util.LinkedHashSet;
 import java.util.Optional;
 import java.util.Set;
-import java.util.stream.DoubleStream;
 
 public class Dev {
 
