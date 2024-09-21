@@ -1,18 +1,27 @@
-## Getting Started
+# Abstraindo um Bootcamp Usando Orientação a Objetos em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém um projeto que foi desenvolvido como parte de um desafio prático de código. O objetivo deste desafio foi implementar um sistema de gerenciamento de conteúdos educacionais, incluindo classes para cursos, mentorias e gerenciamento de desenvolvedores.
 
-## Folder Structure
+## Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+- **Conteudo**: Classe abstrata que representa o conteúdo educacional.
+- **Curso**: Classe que estende `Conteudo`, representando um curso com carga horária.
+- **Mentoria**: Classe que estende `Conteudo`, representando uma mentoria com data específica.
+- **Dev**: Classe que representa um desenvolvedor, incluindo funcionalidades de inscrição em bootcamps e cálculo de XP.
+- **Bootcamp**: Classe que organiza conteúdos e desenvolvedores inscritos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Inscrição em bootcamps.
+- Progresso nos conteúdos e cálculo de XP.
+- Exibição de conteúdos inscritos e concluídos.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como Executar
 
-## Dependency Management
+1. Clone o repositório.
+2. Compile as classes Java.
+3. Execute a classe `Main` para testar o funcionamento do sistema.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Observações
+
+Este projeto foi criado para fins educacionais e para praticar a implementação de conceitos de Programação Orientada a Objetos em Java.
